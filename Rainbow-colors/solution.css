@@ -1,0 +1,39 @@
+*{
+margin: 0;
+padding: 0;
+}
+.violet{
+    height: 90px;
+    text-align: center;
+    background-color: violet;
+}
+.indigo{
+    height: 90px;
+    text-align: center;
+    background-color: indigo;
+}
+.blue{
+    height: 90px;
+    text-align: center;
+    background-color: blue;
+}
+.green{
+    height: 90px;
+    text-align: center;
+    background-color: green;
+}
+.yellow{
+    height: 90px;
+    text-align: center;
+    background-color: yellow;
+}
+.orange{
+    height: 90px;
+    text-align: center;
+    background-color: orange;
+}
+.red{
+    height: 90px;
+    text-align: center;
+    background-color: red;
+}

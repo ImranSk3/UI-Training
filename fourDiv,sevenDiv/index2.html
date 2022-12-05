@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./flex.css">
+</head>
+<body>
+    <div id="list1"></div>
+    <div id="list"> </div>
+    <script>
+        var number=[];
+        let lower=prompt();
+        let upper =prompt();
+        let text1 = `Numbers from ${lower} to ${upper}, where numbers divisible by 4 are replaced by 'fourDiv' and numbers divisible by 7 are replaced by 'sevDiv'`
+        document.getElementById("list1").innerHTML = text1
+        for(lower; lower<=upper; lower++){
+           if(lower%4==0 ){
+            number.push('fourdiv')
+           }
+           else if(lower%7==0){
+            number.push('sevdiv')
+           }
+           else{
+            number.push(lower)
+           }
+        }
+        
+
+        number.forEach(nu=> {
+            let text = nu + "<br/>";
+        //   document.getElementById("list").innerHTML = text;
+            document.write(text)
+        }
+        )
+
+       
+    </script>
+</body>
+</html>
