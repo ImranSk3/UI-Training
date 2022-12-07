@@ -8,15 +8,35 @@ nav{
     height: 50px;
     width: 100vw;
 }
-ul{
+ul{ 
     color: white;
     float: right;
 }  
 
-li{
+li{ 
      display: inline-block;
-     margin: 6px;
+     margin: 10px;
 
 }
-    
+.container{
+    background-color: antiquewhite;
+    height: 83.7vh;
+    width: 99vw;
+    display: flex
+    ;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
    
+}
+.content, .content1, .content2, .content3{
+    margin: 50px 20px 0px 20px;
+    text-align: center;
+}
+.footer{
+    background-color: black;
+    height: 50px;
+    width: 100vw;
+    color: whitesmoke;
+    text-align: center;
+}
