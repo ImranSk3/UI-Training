@@ -11,7 +11,7 @@
     flex-direction: column;
 }
 
-/* Navbar Part */
+
 
 .navbar {
     display: flex;
@@ -41,7 +41,7 @@
     font-family: 'Roboto', arial;
 }
 
-/* Hero Part */
+
 
 .info {
     display: flex;
@@ -92,7 +92,7 @@ h1 {
     height: 350px;
 }
 
-/* Content Part */
+
 
 .content {
     align-items: center;
@@ -113,7 +113,7 @@ h1 {
     margin: 5px 20px 0px 20px;
 }
 
-/* Quotation Part */
+
 
 .quote {
     display: flex;
@@ -137,7 +137,7 @@ h1 {
     text-align: right;
 }
 
-/* Sign Up Part */
+
 .sign-up {
     background-color: #3882F6 ;
     margin: 50px 200px;
@@ -179,7 +179,7 @@ h3 {
     font-size: 15px;
 }
 
-/* Footer */
+
 
 .footer {
     background-color: #1F2937;

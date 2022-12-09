@@ -20,7 +20,7 @@ body {
     border-radius: 15px;
 }
 
-/*  || Display css ||  */
+/* Display css  */
 .display {
     display: flex;
     flex-flow: column wrap;
@@ -45,7 +45,7 @@ body {
     color: #7CE38B;
 }
 
-/*  || Keypad-button css ||  */
+/*  Keypad-button css  */
 .keypad {
     display: grid;
     grid-template-rows: repeat(5, 1fr);
@@ -95,7 +95,7 @@ body {
     background-color: #BB86FC;
 }
 
-/* ||  buttons grid alignment  || */
+/*   buttons grid alignment  */
 .first , .last{
     grid-template-areas:
     "a a b c" ;
