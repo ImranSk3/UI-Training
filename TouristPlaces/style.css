@@ -40,3 +40,9 @@ li{
     color: whitesmoke;
     text-align: center;
 }
+.heading{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: antiquewhite;
+}
